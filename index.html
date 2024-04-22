@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lets Get Started buddy !</h1>
+    <p>In the unknown field put "?" symbol t? figure out answer (Don't use unnecessary spaces or any kind of symbols.</p><br>
+    <br>
+
+    <div class="user-inputs">
+      <input type="text" id="first-rupee" placeholder="---First Amount">
+      <input type="text" id="first-item" placeholder="---First Quantity"><br>
+      <input type="text" id="second-rupee" placeholder="---Second Amount">
+      <input type="text" id="second-item" placeholder="---Second Quantity">
+    </div>
+
+    <div class="call-to-action">
+      <button id="calculate" onclick="calculateMe()">Calculate Now</button>
+    </div>
+  </div>
+
+  <div class="show-ans">
+    <span id="show-case"></span>
+  </div>
+  
+  <div class="errorThrow showAns">
+    <span id="showCase"></span>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
